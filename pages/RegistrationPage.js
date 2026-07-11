@@ -12,6 +12,7 @@ export default class RegistrationPage{
         this.privacyPolicy=page.locator("input[name='agree']");
         this.continue=page.getByRole("button",{name:'Continue'});
         this.accountCreatedMessage=page.getByRole("heading",{name:'Your Account Has Been Created!'});
+        this.login=page.getByRole("button",{name:'Login'});
         
         
         
