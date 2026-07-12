@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import POMManager from '../pages/POMManager';
 test("login",async({browser})=>{
-  
+  //login -sridevi
     const context= await browser.newContext();
     const page=await context.newPage();
     const pomManager=new POMManager(page);
